@@ -1,0 +1,42 @@
+Prerequisites:  Capture a machine image of the server before proceeding with the Server Patching 
+
+For Linux server : 
+
+SSH into server
+sudo -i apt list --upgradable >/home/upgradable_packages.txt 
+cat /home/upgradable_packages.txt 
+apt-get update 
+apt-get upgrade 
+uname -a 
+sudo reboot 
+Wait for 2-3 minutes as the server is getting rebooted. 
+SSH into server 
+Application team needs to check application functionality.
+
+************************************************************************
+For Windows Server : 
+
+How to check for Windows update status :
+ 
+Using search bar , Navigate to "services" 
+Check "Windows updates", this should be set to "Manual". 
+If Windows updates is set to “Manual” then no need to make any changes
+
+How to perform patching : 
+
+Using the search bar, navigate to 'Update & Security 
+Click the 'Check for updates button 
+Windows will now check for updates and install any required ones.
+Restart your server when prompted. 
+Post-validation checks. 
+
+Disable the windows automatic updates :
+ 
+If Windows updates is set to “Automatic” then please follow below steps (We require to disable the windows Automatic update to avoid unexpected downtime) : 
+Open a PowerShell window as administratorPatching 
+Open the "sconfig " utility 
+To change the Windows Update configuration, enter option 5 
+Enter the letter m to configure the execution of the updates manually.
+A message is displayed indicating that Windows Update is set to manual mode. Click on OK to close the message. 
+Reference link: https://rdr-it.com/en/windows-server-2016-2019-disable-automatic-updates/
+

@@ -1,0 +1,14 @@
+check if git is installled on server using : git command
+Clone the repositoyry using command : git clone URL of repository
+mkdir name : to created the folder
+navigate to folder using : cd foldername
+vi name : to create the file
+Add the content into file
+Initiate the git using : git init
+Add the git file : git add .(Space is important)
+Add commit : git commit -m 'Add your comment'
+git remote add origin public url of repository
+push the code using command : git push -u -f origin master
+
+In last two commands everytime origin should be different
+

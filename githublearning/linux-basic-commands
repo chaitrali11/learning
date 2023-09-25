@@ -1,0 +1,35 @@
+sudo su : This will switch you to root user but directory will be home directory of user.
+sudo su 
+pwd  >>>output >> home/chaitrali112/
+
+*******************************************************************
+sudo -i : this will switch you to root user with root directory 
+sudo -i 
+pwd >>output >> /root
+
+**********************************************************************
+
+Example : directory flow >> chaitralikekan112>>plants>>flowers>>fruits
+If you are in chaitralikekan112 directory then you want to switch to sub directoy fruits
+
+pwd >> chaitralikekan112
+cd plants/flowers/fruits (No need to add / before plants)
+
+
+**********************************************************************
+
+
+Example 2 : other directory >>> school>>class>>students
+
+If you want to move to student directory from chaitralikekan112 directory 
+
+pwd >>chaitralikekan112
+cd /school/flowers/fruits (You need to mention / before school)
+
+*********************************************************************
+
+rm filename : to remove file 
+rmdir directory name : to remove folder 
+rm -rf “filename/foldername” : forcefully deleted the file/folder
+Mv file1 file 2 : to copy data from one file to another
+
