@@ -31,5 +31,8 @@ cd /school/flowers/fruits (You need to mention / before school)
 rm filename : to remove file 
 rmdir directory name : to remove folder 
 rm -rf “filename/foldername” : forcefully deleted the file/folder
-Mv file1 file 2 : to copy data from one file to another
+mv file1 file 2 : to copy data from one file to another
+*************************************************
+
+cp * ../otherdirectory : this will copy all content of current directory to another directory
 
