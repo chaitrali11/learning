@@ -6,9 +6,24 @@ vi name : to create the file
 Add the content into file
 Initiate the git using : git init
 Add the git file : git add .(Space is important)
-Add commit : git commit -m 'Add your comment'
+Add commit : git commit -m "Add your comment"
 git remote add origin public url of repository
 push the code using command : git push -u -f origin master
 
 In last two commands everytime origin should be different
 
+
+
+**************************************************
+
+1. go to your git repo in the vm.
+2. switch to branch main ::: First check currently you are on which branch : git branch :;:: Change the branch to main :: git checkout main/master
+3. pull the new changes :::::git pull
+4. create and switch to new branch "test-data"  ::::::;git branch test-data
+5. modify the existing file "git-commands" 
+6. add, commit the changes.
+7. push the new changes from test-date branch to remote repo.
+8. merge the test-data branch to main branch.
+
+
+****************************************
