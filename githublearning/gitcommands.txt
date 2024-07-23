@@ -9,7 +9,7 @@ git commit -m "message" : commit command format
 git checkout branchname : navigate within branchname
 git checkout -d branchname : delete the branchname
 git checkout -b branchname : add branch
-
+git branch -m newbranchname : to change name of branch
 
 
 
