@@ -6,6 +6,10 @@ File which is added and ready to commit is staged file
 git add filename : add specific file
 git add . : adds all files
 git commit -m "message" : commit command format
+git checkout branchname : navigate within branchname
+git checkout -d branchname : delete the branchname
+git checkout -b branchname : add branch
+
 
 
 
